@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/distribution/distribution/v3"
+	"github.com/HunteX/distribution/v3"
 )
 
 type httpBlobUpload struct {

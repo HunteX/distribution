@@ -7,11 +7,11 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/distribution/distribution/v3"
-	"github.com/distribution/distribution/v3/registry/storage/cache/memory"
-	"github.com/distribution/distribution/v3/registry/storage/driver"
-	"github.com/distribution/distribution/v3/registry/storage/driver/inmemory"
-	"github.com/distribution/distribution/v3/testutil"
+	"github.com/HunteX/distribution/v3"
+	"github.com/HunteX/distribution/v3/registry/storage/cache/memory"
+	"github.com/HunteX/distribution/v3/registry/storage/driver"
+	"github.com/HunteX/distribution/v3/registry/storage/driver/inmemory"
+	"github.com/HunteX/distribution/v3/testutil"
 	"github.com/distribution/reference"
 	"github.com/opencontainers/go-digest"
 )

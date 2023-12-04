@@ -21,7 +21,7 @@ func (ic *instanceContext) Value(key interface{}) interface{} {
 			// We want to lazy initialize the UUID such that we don't
 			// call a random generator from the package initialization
 			// code. For various reasons random could not be available
-			// https://github.com/distribution/distribution/issues/782
+			// https://github.com/HunteX/distribution/issues/782
 			ic.id = uuid.NewString()
 		})
 		return ic.id

@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/distribution/distribution/v3/registry/storage/driver"
-	"github.com/distribution/distribution/v3/registry/storage/driver/inmemory"
+	"github.com/HunteX/distribution/v3/registry/storage/driver"
+	"github.com/HunteX/distribution/v3/registry/storage/driver/inmemory"
 	"github.com/google/uuid"
 )
 

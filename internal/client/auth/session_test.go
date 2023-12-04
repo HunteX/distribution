@@ -9,9 +9,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/distribution/distribution/v3/internal/client/auth/challenge"
-	"github.com/distribution/distribution/v3/internal/client/transport"
-	"github.com/distribution/distribution/v3/testutil"
+	"github.com/HunteX/distribution/v3/internal/client/auth/challenge"
+	"github.com/HunteX/distribution/v3/internal/client/transport"
+	"github.com/HunteX/distribution/v3/testutil"
 )
 
 // An implementation of clock for providing fake time data.

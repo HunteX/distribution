@@ -3,7 +3,7 @@ package proxy
 import (
 	"context"
 
-	"github.com/distribution/distribution/v3"
+	"github.com/HunteX/distribution/v3"
 )
 
 // proxyTagService supports local and remote lookup of tags.

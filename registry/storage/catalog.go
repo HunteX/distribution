@@ -7,7 +7,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/distribution/distribution/v3/registry/storage/driver"
+	"github.com/HunteX/distribution/v3/registry/storage/driver"
 	"github.com/distribution/reference"
 )
 

@@ -20,5 +20,5 @@ pygmentsCodeFences: true
 disablePathToLower: true
 
 params:
-  geekdocRepo: "https://github.com/distribution/distribution"
+  geekdocRepo: "https://github.com/HunteX/distribution"
   geekdocEditPath: edit/main/docs

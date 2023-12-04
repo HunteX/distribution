@@ -5,8 +5,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/distribution/distribution/v3"
-	"github.com/distribution/distribution/v3/manifest"
+	"github.com/HunteX/distribution/v3"
+	"github.com/HunteX/distribution/v3/manifest"
 	"github.com/opencontainers/go-digest"
 )
 

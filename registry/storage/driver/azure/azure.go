@@ -12,9 +12,9 @@ import (
 	"strings"
 	"time"
 
-	storagedriver "github.com/distribution/distribution/v3/registry/storage/driver"
-	"github.com/distribution/distribution/v3/registry/storage/driver/base"
-	"github.com/distribution/distribution/v3/registry/storage/driver/factory"
+	storagedriver "github.com/HunteX/distribution/v3/registry/storage/driver"
+	"github.com/HunteX/distribution/v3/registry/storage/driver/base"
+	"github.com/HunteX/distribution/v3/registry/storage/driver/factory"
 
 	"github.com/Azure/azure-sdk-for-go/sdk/azcore/streaming"
 	"github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/blob"
@@ -119,7 +119,7 @@ func (d *driver) PutContent(ctx context.Context, path string, contents []byte) e
 	}
 
 	// Historically, blobs uploaded via PutContent used to be of type AppendBlob
-	// (https://github.com/distribution/distribution/pull/1438). We can't replace
+	// (https://github.com/HunteX/distribution/pull/1438). We can't replace
 	// these blobs atomically via a single "Put Blob" operation without
 	// deleting them first. Once we detect they are BlockBlob type, we can
 	// overwrite them with an atomically "Put Blob" operation.
